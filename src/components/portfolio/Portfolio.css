@@ -48,6 +48,14 @@
   opacity: 0;
 }
 
+.portfolio__thumbnail {
+  height: auto;
+}
+
+img {
+  object-fit: cover;
+}
+
 .portfolio__card:hover .portfolio__mask {
   opacity: 0.9;
 }
