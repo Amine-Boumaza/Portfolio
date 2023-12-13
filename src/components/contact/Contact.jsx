@@ -28,7 +28,7 @@ const Contact = (props) => {
     };
 
     emailjs
-      .send(service_bs4oudh, template_mtgzep6, data, bAZtX - BXHjKsl8TY8)
+      .send("service_bs4oudh", "template_t5xufwh", data, "qdi-iO_mW1r6jkvEC")
       .then(
         (result) => {
           setLoading(false);
